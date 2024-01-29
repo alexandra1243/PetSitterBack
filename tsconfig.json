@@ -1,0 +1,72 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "paths": {
+      "@common/*": [
+        "src/common/*"
+      ],
+      "@teams/*": [
+        "src/teams/*"
+      ],
+      "@users/*": [
+        "src/users/*"
+      ],
+      "@leagues/*": [
+        "src/leagues/*"
+      ],
+      "@fixture/*": [
+        "src/fixture/*"
+      ],
+      "@authentication/*": [
+        "src/authentication/*"
+      ],
+      "@reports/*": [
+        "src/reports/*"
+      ],
+      "@bets/*": [
+        "src/bets/*"
+      ],
+      "@h2h/*": [
+        "src/h2h/*"
+      ],
+      "@stats/*": [
+        "src/stats/*"
+      ],
+      "@events/*": [
+        "src/events/*"
+      ],
+      "@votes/*": [
+        "src/votes/*"
+      ],
+      "@daily-bet/*": [
+        "src/daily-bet/*"
+      ],
+      "@countries/*": [
+        "src/countries/*"
+      ],
+      "@injuries/*": [
+        "src/injuries/*"
+      ],
+      "@preview/*": [
+        "src/preview/*"
+      ],
+      "@player/*": [
+        "src/player/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
